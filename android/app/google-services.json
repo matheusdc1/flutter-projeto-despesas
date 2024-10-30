@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "788172541940",
+    "project_id": "controle-de-despesas-1b165",
+    "storage_bucket": "controle-de-despesas-1b165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788172541940:android:f0a13034712620bfd4b3a1",
+        "android_client_info": {
+          "package_name": "com.controledespesas.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788172541940-jbin5mlt5a157kk856ejitje0d4ng8k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvyW23D_46Nw8lj6RUuMk0VhmoVDv0Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788172541940-jbin5mlt5a157kk856ejitje0d4ng8k6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "788172541940-l664u99kovhgaiq3jndqj31m4tg031mk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.controleDespesas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
