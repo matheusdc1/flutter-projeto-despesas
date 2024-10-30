@@ -79,13 +79,13 @@ https://docs.google.com/document/d/1CtHZ02PyPWqyDhL8Pbs_X3eh9Zld8G9F6keEI3fuOgs/
 
  <img src="./screens/tela-lista-despesa.png" alt="Tela lista despesas" />
 
-> Tela de filtro de despesas
-
- <img src="./screens/tela-filtro.png" alt="Tela filtro despesas" />
-
 > Tela de edição de despesas.
 
  <img src="./screens/tela-edit-despesa.png" alt="Tela edição despesa" />
+
+> Tela de filtro de despesas
+
+ <img src="./screens/tela-filtro.png" alt="Tela filtro despesas" />
 
 > Tela filtro de despesas ordem
 
