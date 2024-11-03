@@ -35,9 +35,18 @@ class _HomePageState extends State<HomePage> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     if (!_isInit) {
-      expenseBloc.add(const ExpenseEnteredHomePage(userId: ''));
+      final userId = _getUserId();
+      expenseBloc.add(ExpenseEnteredHomePage(userId: userId));
       _isInit = true;
     }
+  }
+
+  String _getUserId() {
+    final state = authBloc.state;
+    if (state is Authenticated) {
+      return state.user.id;
+    }
+    throw Exception("Usuário não autenticado");
   }
 
   @override
@@ -46,7 +55,8 @@ class _HomePageState extends State<HomePage> {
       bloc: expenseBloc,
       listener: (context, state) {
         if (state is ExpenseReloadRequested) {
-          expenseBloc.add(const ExpenseEnteredHomePage(userId: ''));
+          final userId = _getUserId();
+          expenseBloc.add(ExpenseEnteredHomePage(userId: userId));
         }
       },
       builder: (context, state) {
