@@ -1,8 +1,8 @@
 import 'dart:async';
-import 'package:controle_despesas/app/expense/presentation/ui/pages/add_expense_page.dart';
-import 'package:controle_despesas/app/expense/presentation/ui/pages/expense_list_page.dart';
-import 'package:controle_despesas/app/expense/presentation/ui/pages/home_page.dart';
 import 'package:controle_despesas/app/modules/auth/presentation/bloc/auth/auth_bloc.dart';
+import 'package:controle_despesas/app/modules/expense/presentation/ui/pages/add_expense_page.dart';
+import 'package:controle_despesas/app/modules/expense/presentation/ui/pages/expense_list_page.dart';
+import 'package:controle_despesas/app/modules/expense/presentation/ui/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:controle_despesas/app/modules/auth/presentation/ui/pages/login_page.dart';

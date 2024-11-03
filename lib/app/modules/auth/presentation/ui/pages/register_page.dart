@@ -1,5 +1,5 @@
 import 'package:controle_despesas/app/modules/auth/presentation/bloc/auth/auth_bloc.dart';
-import 'package:controle_despesas/app/shared/ui/widgets/app_button.dart';
+import 'package:controle_despesas/app/modules/shared/ui/widgets/app_button.dart';
 import 'package:controle_despesas/app/theme/spacing.dart';
 import 'package:controle_despesas/injection_container.dart';
 import 'package:flutter/material.dart';
